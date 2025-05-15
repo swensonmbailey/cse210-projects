@@ -1,10 +1,10 @@
 public class Comment
 {
-    public string user;
-    public string text;
+    public string _user;
+    public string _text;
 
     public void DisplayComment()
     {
-        Console.WriteLine($"{user}: {text}");
+        Console.WriteLine($"{_user}: {_text}");
     }
 }
