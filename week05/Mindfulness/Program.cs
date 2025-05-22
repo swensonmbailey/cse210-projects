@@ -1,9 +1,21 @@
 using System;
+using System.Reflection;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Mindfulness Project.");
+        BreatheActivity breathe = new BreatheActivity();
+
+        // breathe.SetUpActivity();
+        // breathe.RunActivity();
+
+        ReflectionActivity reflection = new ReflectionActivity();
+        // reflection.SetUpActivity();
+        // reflection.RunActivity();
+
+        ListingActivity listing = new ListingActivity();
+        listing.SetUpActivity();
+        listing.RunActivity();
     }
 }
