@@ -104,7 +104,7 @@ public class Activity
         return _name;
     }
 
-    protected int GetSeconds()
+    public int GetSeconds()
     {
         return _seconds;
     }
